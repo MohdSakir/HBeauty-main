@@ -1029,6 +1029,7 @@ section[data-section="menu"] {
 }
 
 .otl-cell {
+  height: 37%;
   background: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1049,12 +1050,16 @@ section[data-section="menu"] {
 }
 
 .otl-cell .image {
+  height: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 992px) {
+.otl-cell{
+  height: auto;
+}
   .otl-cell .image {
     height: 200px;
   }
