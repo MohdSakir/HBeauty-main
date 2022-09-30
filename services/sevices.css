@@ -64,5 +64,12 @@ body {
     font-family: "vilane", sans-serif;
     margin-top: -22px;
   }
-  
+  @media screen and (max-width: 768px){
+    .menu-section-title{
+      font-size: 30px;
+    }
+    .menu-section{
+      margin: 30px;
+    }
+  }
   
