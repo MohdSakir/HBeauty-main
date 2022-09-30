@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?1z9v6x");
-  src: url("../fonts/icomoon/icomoon.eot?1z9v6x#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?1z9v6x") format("truetype"), url("../fonts/icomoon/icomoon.woff?1z9v6x") format("woff"), url("../fonts/icomoon/icomoon.svg?1z9v6x#icomoon") format("svg");
+  font-family: 'vilane';
+  src: url(/Vilane-Font/Vilane\ Medium.ttf);
+  /* src: url(/Vilane-Font/Vilane\ Bold.ttf); */
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +16,7 @@ body {
   line-height: 24px;
   background: #E4E4E4;
   scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
+  font-family: "vilane", sans-serif;
 }
 
 .menu-body {
@@ -31,7 +31,7 @@ body {
   }
   
   .menu-section-title {
-    font-family: georgia;
+    font-family: "vilane", sans-serif;
     font-size: 50px;
     display: block;
     font-weight:normal;
@@ -45,13 +45,15 @@ body {
   }
   
   .menu-item-name{
-    font-family: helvetica;
+    font-family: "vilane", sans-serif;
     font-weight: bold;
     border-bottom: 2px dotted rgb(213, 213, 213);
   }
   
   .menu-item-description {
-    font-style: italic;
+    font-family: "vilane", sans-serif;
+    font-weight: lighter;
+    /* font-style: italic; */
     font-size: .9em;
     line-height: 1.5em;
   }
@@ -59,7 +61,7 @@ body {
   .menu-item-price{
     float: right;
     font-weight: bold;
-    font-family: arial;
+    font-family: "vilane", sans-serif;
     margin-top: -22px;
   }
   

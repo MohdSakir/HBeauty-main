@@ -6,7 +6,10 @@
   License: Released for free under the Creative Commons Attribution 3.0 license (myotlifestyle.com/license)
  */
 @font-face {
+  font-family: 'vilane';
   font-family: 'icomoon';
+  src: url("/Vilane-Font/Vilane\ Bold.ttf");
+  src: url("/Vilane-Font/Vilane\ Medium.ttf");
   src: url("../fonts/icomoon/icomoon.eot?1z9v6x");
   src: url("../fonts/icomoon/icomoon.eot?1z9v6x#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?1z9v6x") format("truetype"), url("../fonts/icomoon/icomoon.woff?1z9v6x") format("woff"), url("../fonts/icomoon/icomoon.svg?1z9v6x#icomoon") format("svg");
   font-weight: normal;
@@ -23,7 +26,7 @@ body {
   line-height: 24px;
   background: #E4E4E4;
   scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
+  font-family: "vilane", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -336,6 +339,7 @@ a:hover, a:focus, a:active {
 }
 
 .otl-navbar .navbar-nav > li > a {
+  font-family: "vilane", sans-serif;
   color: white;
   font-size: 15px;
   position: relative;
@@ -1864,7 +1868,7 @@ section[data-section="menu"] {
 }
 
 .otl-heading .primary-heading {
-  font-family: "Pinyon Script", serif;
+  font-family: "vilane", sans-serif;
   color: orange;
   margin: 0;
   padding: 0;
@@ -1873,11 +1877,12 @@ section[data-section="menu"] {
 
 @media screen and (max-width: 768px) {
   .otl-heading .primary-heading {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 
 .otl-heading .secondary-heading {
+  font-family: "vilane",sans-serif;
   text-transform: uppercase;
   color: #ffffff;
   margin: 0;
@@ -1885,14 +1890,14 @@ section[data-section="menu"] {
   letter-spacing: .05em;
   font-size: 50px;
   position: relative;
-  top: -50px;
+  top: -20px;
   font-weight: 700;
   line-height: 40px;
 }
 
 @media screen and (max-width: 768px) {
   .otl-heading .secondary-heading {
-    font-size: 40px;
+    font-size: 20px;
   }
 }
 
@@ -1927,8 +1932,13 @@ section[data-section="menu"] {
 
 .flexslider .otl-slider-text .sub-heading {
   font-size: 20px;
-  margin-top: -40px;
+  margin-top: -20px;
   color: rgba(255, 255, 255, 0.7);
+}
+@media screen and (max-width: 480px){
+  .flexslider .otl-slider-text .sub-heading {
+    font-size: 10px;
+  }
 }
 
 .flexslider .otl-slider-text .sub-heading a {
@@ -1984,7 +1994,7 @@ section[data-section="menu"] {
 }
 
 .flexslider .flex-direction-nav a:before {
-  font-family: 'icomoon';
+  font-family: "vilane" sans-serif;
   /* speak: none; */
   font-style: normal;
   font-weight: normal;
@@ -2372,7 +2382,7 @@ section[data-section="menu"] {
 }
 
 .text {
-  font-family: inherit;
+  font-family: "vilane", sans-serif;
   font-weight: 700;
   line-height: inherit;
   text-rendering: optimizeLegibility;
@@ -2384,7 +2394,7 @@ section[data-section="menu"] {
 }
 
 .paragraph {
-  font-family: inherit;
+  font-family: "vilane", sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: inherit;
