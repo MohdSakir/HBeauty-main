@@ -79,7 +79,10 @@ body {
   height: 35px;
   width: 100px;
 }
-
+.header-img{
+  position: relative;
+  top: 6pc;
+}
 .header-img img{
   display: flex;
   position: relative;
@@ -113,6 +116,7 @@ body {
   color: orange;
 }
 .sections{
+  top: 6pc;
   color: black;
   display: flex;
   position: relative;
@@ -128,6 +132,7 @@ body {
   list-style: none;
 }
 .div-div ul li::before{
+  color: orange;
   content: "✨";
   padding-right: 10px;
 }
@@ -175,7 +180,7 @@ body {
     overflow-y: auto;
   }
   .sections{
-    display: contents;
+    display: block;
   }
   .sections div{
     padding-left: 10px;

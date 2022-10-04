@@ -2644,3 +2644,39 @@ section[data-section="menu"] {
   justify-content: space-evenly;
   position: relative;
 }
+
+
+
+.contact-container{
+  width: 58%;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.contact-form input, textarea{
+  border: 0;
+  background: #E4E4E4;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+}
+.contact-form button{
+  padding: 15px;
+  background: orange;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: black;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
