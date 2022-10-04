@@ -174,9 +174,6 @@ body {
     height: auto;
     overflow-y: auto;
   }
- 
-}
-@media (max-width:500px){
   .sections{
     display: contents;
   }
@@ -195,8 +192,8 @@ body {
   .div-div h1{
     font-size: 20px;
   }
+ 
 }
-
 
 
 
