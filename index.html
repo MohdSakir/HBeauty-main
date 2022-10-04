@@ -151,23 +151,23 @@
 
     <section class="all-services">
 
+      <figure class="snip1543"><img src="/img/model-g006e5cf02_1920.jpg" alt="sample100" />
+        <figcaption>
+          <h3>Alan Fresco</h3>
+          <p>The real fun of living wisely is that you get to be smug about it.<button class="learn-more"> <a href="/services/services.html">Show More</a></button></p>
+        </figcaption>
+      </figure>
     <figure class="snip1543">
       <img src="/img/india-g668662424_1920.jpg" alt="sample108" />
       <figcaption>
         <h3>Inverness McKenzie</h3>
-        <p>The only skills I have the patience to learn are those that have no real application in life. <button class="learn-more"> <a href="/services/services.html">Show More</a></button></p>
-      </figcaption>
-    </figure>
-    <figure class="snip1543 hover"><img src="/img/model-g006e5cf02_1920.jpg" alt="sample100" />
-      <figcaption>
-        <h3>Alan Fresco</h3>
-        <p>The real fun of living wisely is that you get to be smug about it.<button class="learn-more"> <a href="/services/services.html">Show More</a></button></p>
+        <p>The only skills I have the patience to learn are those that have no real application in life. <button class="learn-more"> <a href="/services/groom.html">Show More</a></button></p>
       </figcaption>
     </figure>
     <figure class="snip1543"><img src="/img/3.jpg" alt="sample101" />
       <figcaption>
         <h3>Indigo Violet</h3>
-        <p>But Calvin is no kind and loving god! He's one of the old gods! He demands sacrifice!<button class="learn-more"> <a href="/services/services.html">Show More</a></button> </p>
+        <p>But Calvin is no kind and loving god! He's one of the old gods! He demands sacrifice!<button class="learn-more"> <a href="/services/kids.html">Show More</a></button> </p>
       </figcaption>
     </figure>
   </section>
@@ -263,7 +263,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 bootstrap-animate">
-            <form method="post" class="otl-form" netlify>
+            <form method="post" class="otl-form" onsubmit="sendEmail(); reset(); return false;">
               <div class="row">
                 <div class="col-md-4">
                   <div class="form-group">
@@ -669,8 +669,25 @@
       </div>
     </section>
 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail(){
+      Email.send({
+    Host : "smtp.gmail.com",
+    Username : "mohdsakir272000@gmail.com",
+    Password : "Sakir@8218",
+    To : 'mohdsakir272000@gmail.com',
+    From : document.getElementsById("email").value,
+    Subject : "Booking",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+}
+    </script>
     <script src="js/scripts.min.js"></script>
     <script src="js/custom.min.js"></script>
+  
 
 </body>
 </html>
