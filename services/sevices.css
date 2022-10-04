@@ -180,6 +180,9 @@ body {
   .sections{
     display: contents;
   }
+  .sections div{
+    padding-left: 10px;
+  }
   .header-img img{
     object-fit: cover;
   }
