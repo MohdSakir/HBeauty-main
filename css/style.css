@@ -2376,7 +2376,10 @@ section[data-section="menu"] {
 
 
 
-
+.contact-section{
+  position: relative;
+  top: -6pc;
+}
 
 
 
@@ -2705,5 +2708,7 @@ section[data-section="menu"] {
     height: 100%;
   }
 }
+
+
 
 
