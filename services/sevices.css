@@ -124,7 +124,9 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
+.div-div h1{
+  font-weight: lighter;
+}
 .div-div ul{
   padding-inline-start: 0px;
 }

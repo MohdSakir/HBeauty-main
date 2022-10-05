@@ -24,7 +24,7 @@ body {
   font-size: 15px;
   color: #8b8e94;
   line-height: 24px;
-  background: #E4E4E4;
+  background: #ffffff;
   scroll-behavior: smooth;
   font-family: 'vilane', sans-serif;
 }
@@ -534,6 +534,7 @@ a:hover, a:focus, a:active {
   }
 }
 
+
 .otl-hero {
   background-size: cover;
   background-position: center center;
@@ -738,9 +739,13 @@ section[data-section="menu"] {
   right: 0;
   bottom: 0;
 }
+.review-section{
+  position: relative;
+  margin-top: 0px !important;
+}
 
 .otl-section-bg .otl-heading {
-  margin-top: 250px;
+  margin-top: 150px;
 }
 
 @media screen and (max-width: 768px) {
@@ -1899,6 +1904,7 @@ section[data-section="menu"] {
   .otl-heading .secondary-heading {
     font-size: 20px;
   }
+  
 }
 
 .otl-heading.dark .secondary-heading {
@@ -1938,6 +1944,9 @@ section[data-section="menu"] {
 @media screen and (max-width: 480px){
   .flexslider .otl-slider-text .sub-heading {
     font-size: 10px;
+  }
+  .flexslider ul li{
+    background-position-x: -159px;
   }
 }
 
@@ -2418,6 +2427,16 @@ section[data-section="menu"] {
   text-overflow: ellipsis;
 }
 
+.main{
+  top: -20pc;
+  position: relative;
+}
+@media screen and (max-width:768px){
+  .main{
+    top: -12pc;
+  }
+}
+
 .main .scroll {
   position: relative;
   display: flex;
@@ -2450,15 +2469,15 @@ section[data-section="menu"] {
   outline: none;
   border-radius: 0.25rem;
   color: #252a32;
-  background: white;
+  background: rgb(255, 255, 255);
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 .main .scroll .card-image {
   position: relative;
-  display: block;
+  display: none;
   width: 100%;
   height: auto;
-  padding-top: 110%;
+  /* padding-top: 110%; */
 }
 .main .scroll .card-image img.responsive {
   position: absolute;
@@ -2474,8 +2493,6 @@ section[data-section="menu"] {
   height: auto;
   padding: 1rem;
 }
-
-
 
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
@@ -2639,6 +2656,7 @@ section[data-section="menu"] {
 }
 
 .all-services{
+  margin: 50px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -2663,6 +2681,7 @@ section[data-section="menu"] {
   border-radius: 10px;
 }
 .contact-form input, textarea{
+  max-width: 100%;
   border: 0;
   background: #E4E4E4;
   margin: 10px 0;
@@ -2680,3 +2699,11 @@ section[data-section="menu"] {
   margin: 20px auto 0;
   border-radius: 30px;
 }
+@media screen and (max-width:992px){
+  .contact-container{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
