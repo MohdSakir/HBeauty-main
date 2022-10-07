@@ -621,6 +621,20 @@ a:hover, a:focus, a:active {
   color: rgba(255, 255, 255, 0.8);
 }
 
+.logo-image-landing{
+  top: 13pc;
+  position: absolute;
+  z-index: 99;
+  right: 36pc;
+}
+@media screen and (max-width:768px){
+  .logo-image-landing{
+    width: 209px;
+    top: 5pc;
+    right: 5pc;
+  }
+}
+
 .btn {
   border: none;
   border-radius: 30px;
