@@ -6,6 +6,7 @@
   font-style: normal;
 }
 
+
 html {
   overflow-x: hidden;
 }
@@ -138,6 +139,28 @@ body {
   content: "✨";
   padding-right: 10px;
 }
+.middlediv{
+  margin-right: 20pc;
+}
+.footer-div{
+  background: rgb(255, 255, 255);
+  position: relative;
+  display: flex;
+  top: 10pc;
+  width: 100%;
+}
+.footer-section{
+  width: 100%;
+  color: #8b8e94;
+}
+@media screen and (max-width: 768px){
+  .middlediv{
+    margin-right: 0;
+  }
+  .headings-h4{
+    font-size: 17px !important;
+  }
+}
 @media (max-width:900px) {
   .nav > .nav-btn {
     display: inline-block;
@@ -197,7 +220,10 @@ body {
     font-size: 15px;
   }
   .div-div h1{
-    font-size: 20px;
+    font-size: 25px;
+  }
+  .middlediv h1{
+    display: none;
   }
  
 }
