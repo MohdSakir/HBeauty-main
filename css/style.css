@@ -622,16 +622,20 @@ a:hover, a:focus, a:active {
 }
 
 .logo-image-landing{
+  width: 280px;
+  height: 100px;
   top: 13pc;
   position: absolute;
   z-index: 99;
-  right: 36pc;
+  right: 39pc;
 }
+
 @media screen and (max-width:768px){
   .logo-image-landing{
-    width: 209px;
+    width: 200px;
+  height: 70px;
     top: 5pc;
-    right: 5pc;
+    right: 6pc;
   }
 }
 
@@ -2381,6 +2385,7 @@ section[data-section="menu"] {
   color: black;
 }
 .learn-more a{
+  padding-top: 2pc;
   color: white;
 }
 .learn-more a:hover{
