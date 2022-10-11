@@ -1088,7 +1088,7 @@ section[data-section="menu"] {
   height: auto;
 }
   .otl-cell .image {
-    height: 200px;
+    height: 23pc;
   }
 }
 
@@ -2573,6 +2573,7 @@ section[data-section="menu"] {
   -webkit-transform: skew(-30deg) translateX(-70%);
   transform: skew(-30deg) translateX(-70%);
 }
+
 
 .snip1543 figcaption {
   position: absolute;
