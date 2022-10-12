@@ -622,20 +622,20 @@ a:hover, a:focus, a:active {
 }
 
 .logo-image-landing{
-  width: 280px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -171px);
+  transform: translate(-50%, -200px);
   position: absolute;
   z-index: 99;
 }
 
 @media screen and (max-width:768px){
   .logo-image-landing{
-    width: 200px;
-  height: 70px;
-   transform: translate(-50%, -110px);
+    width: 60px;
+    height: 60px;
+    transform: translate(-50%, -50px);
   }
 }
 
@@ -954,6 +954,9 @@ section[data-section="menu"] {
   .image-wrap {
     width: 100%;
     height: 200px;
+  }
+  .otl-custom-link {
+    margin-top: 10px;
   }
 }
 
@@ -1895,12 +1898,12 @@ section[data-section="menu"] {
   color: orange;
   margin: 0;
   padding: 0;
-  font-size: 80px;
+  font-size: 70px;
 }
 
 @media screen and (max-width: 768px) {
   .otl-heading .primary-heading {
-    font-size: 50px;
+    font-size: 30px;
   }
 }
 
@@ -1911,7 +1914,7 @@ section[data-section="menu"] {
   margin: 0;
   padding: 0;
   letter-spacing: .05em;
-  font-size: 50px;
+  font-size: 40px;
   position: relative;
   top: -20px;
   font-weight: 700;
@@ -1920,8 +1923,12 @@ section[data-section="menu"] {
 
 @media screen and (max-width: 768px) {
   .otl-heading .secondary-heading {
-    font-size: 20px;
+    font-size: 15px;
   }
+  
+.otl-heading.dark{
+  margin-top: 20px;
+}
   
 }
 
@@ -1931,7 +1938,7 @@ section[data-section="menu"] {
 
 .otl-heading .seperator {
   display: block;
-  margin: 0 auto 10px auto;
+  margin: -20px auto 5px auto;
   color: #ccc;
   font-weight: 300;
 }
@@ -1950,7 +1957,10 @@ section[data-section="menu"] {
 
 @media screen and (max-width: 480px) {
   .flexslider .otl-slider-text {
-    margin-top: 150px;
+    margin-top: 200px;
+  }
+  .about-h{
+    margin: 0px 10px;
   }
 }
 

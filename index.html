@@ -52,7 +52,7 @@
     </nav>
 
     <section class="flexslider" id="home" data-section="home">
-      <img class="logo-image-landing" src="/img/h beauty.png" alt="">
+      <img class="logo-image-landing" src="/img/landing-logo.png" alt="">
       <ul class="slides">
         <li style="background-image: url(img/LP\ 1.jpg)" class="overlay" data-stellar-background-ratio="0.5">
           <div class="container">
@@ -119,7 +119,7 @@
               <h3 class="secondary-heading">H Beauty Studio</h3>
               <span class="seperator">* * *</span>
             </div>
-            <p>The H Beauty Studio brings you the freshest services to enhance your beauty. We believe beauty is inclusive; everyone deserves to feel beautiful and pampered. With top-of-the-line products, exquisite amenities, and expertly educated staff, our salon is a pioneer in offering consumers a superb experience for hair, skin, hands & feet, and makeup.
+            <p class="about-h">The H Beauty Studio brings you the freshest services to enhance your beauty. We believe beauty is inclusive; everyone deserves to feel beautiful and pampered. With top-of-the-line products, exquisite amenities, and expertly educated staff, our salon is a pioneer in offering consumers a superb experience for hair, skin, hands & feet, and makeup.
               Even though we are busy, taking care of ourselves is crucial. It is as essential to get massages and be well-groomed as it is to eat healthy food, exercise, and get enough sleep.
               </p>
             <p><a href="#" class="otl-custom-link" data-nav-section="blog">About Us</a></p>
@@ -584,11 +584,11 @@
             <p>Voluptatibus quaerat laboriosam fugit non Ut consequatur animi est molestiae enim a voluptate totam natus modi debitis dicta impedit voluptatum quod sapiente illo saepe explicabo quisquam perferendis labore et illum suscipit</p>
           </div>
           <div class = "contact-container">
-    <form onsubmit="sendEmail(); reset(); return false;" class="contact-form">
-         <input type = "text" id = "name" placeholder = "Your Name" required>
-         <input type = "email" id = "email" placeholder = "Email id" required>
-         <input type = "text" id = "phone" placeholder = "Phone no ." required>
-         <textarea id = "message" rows = "4" placeholder = "How can we help you?"></textarea>
+    <form onsubmit="sendEmail(); reset(); return false;" class="contact-form kwes-form" action="https://kwesforms.com/api/foreign/forms/ZUTK5kyiYWbhL1Odxkkb">
+         <input type = "text" id = "name" placeholder = "Your Name" name="name" required>
+         <input type = "email" id = "email" placeholder = "Email id" name="email" required>
+         <input type = "text" id = "phone" placeholder = "Phone no ." name="phone" required>
+         <textarea id = "message" rows = "4" placeholder = "How can we help you?" name="message"></textarea>
          <button type = "submit">Send</button>
     </form>
 </div>
@@ -704,6 +704,7 @@
   }
 );
     </script>
+    <script src="https://kwesforms.com/v2/kwes-script.js" defer></script>
     <script src="js/scripts.min.js"></script>
     <script src="js/custom.min.js"></script>
   
