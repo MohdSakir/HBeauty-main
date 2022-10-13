@@ -2909,7 +2909,7 @@ opacity: .1;}}
   }
   100%{
     opacity: 0;
-    transform: translate(-10px, -10px);
+    transform: translate(10px, 10px);
   }
 
 }
