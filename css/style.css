@@ -5,9 +5,16 @@
   Author URL: https://myotlifestyle.com
   License: Released for free under the Creative Commons Attribution 3.0 license (myotlifestyle.com/license)
  */
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter:wght@200&display=swap');
 @font-face {
   font-family: 'vilane';
   font-family: 'icomoon';
+  font-family: 'marchila';
+  font-family: 'numberlin';
+  src: url(/numberlin_ordinary/Numberlin.ttf);
+  src: url(/marchila/Marchila.otf);
+  src: url(/fonts/numberlin_ordinary/Numberlin.ttf);
+  src: url(/fonts/marchila/Marchila.otf);
   src: url("/Vilane-Font/Vilane\ Bold.ttf");
   src: url("/Vilane-Font/Vilane\ Medium.ttf");
   src: url("../fonts/icomoon/icomoon.eot?1z9v6x");
@@ -35,10 +42,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  font-family: 'Dancing Script', cursive !important;
   font-size: 46px;
 }
 
 h2 {
+  font-family: 'Dancing Script', cursive !important;
   font-size: 36px;
 }
 
@@ -624,8 +633,8 @@ a:hover, a:focus, a:active {
 .logo-image-landing{
   width: 150px;
   height: 150px;
-  top: 50%;
-  left: 50%;
+  top: 23%;
+    left: 45%;
   transform: translate(-50%, -200px);
   position: absolute;
   z-index: 99;
@@ -633,6 +642,7 @@ a:hover, a:focus, a:active {
 
 @media screen and (max-width:768px){
   .logo-image-landing{
+    top: 35%;
     width: 60px;
     height: 60px;
     transform: translate(-50%, -50px);
