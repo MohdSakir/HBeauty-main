@@ -86,6 +86,9 @@ a:hover, a:focus, a:active {
   line-height: 64px;
   color: white;
 }
+.cursive-font{
+  font-family: 'Dancing Script', cursive !important;
+}
 
 @media screen and (max-width: 768px) {
   .hero-text-heading, .otl-hero h1 {
@@ -2443,6 +2446,7 @@ section[data-section="menu"] {
   text-rendering: optimizeLegibility;
 }
 .text-title {
+  letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 20px;
   color: orange;
@@ -2531,6 +2535,7 @@ section[data-section="menu"] {
   object-fit: cover;
 }
 .main .scroll .card-inner {
+  min-height: 160px;
   width: 100%;
   height: auto;
   padding: 1rem;
