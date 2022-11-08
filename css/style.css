@@ -87,6 +87,7 @@ a:hover, a:focus, a:active {
   color: white;
 }
 .cursive-font{
+  text-transform: initial !important;
   font-family: 'Dancing Script', cursive !important;
 }
 
@@ -637,7 +638,7 @@ a:hover, a:focus, a:active {
   width: 150px;
   height: 150px;
   top: 23%;
-    left: 45%;
+    left: 44%;
   transform: translate(-50%, -200px);
   position: absolute;
   z-index: 99;
