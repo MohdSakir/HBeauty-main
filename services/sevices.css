@@ -5,6 +5,18 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face{
+  font-family: careto;
+  src: url(/creato_display/CreatoDisplay-Regular.otf);
+}
+@font-face{
+  font-family: aurallia;
+  src: url(/aurallia/Aurallia.ttf);
+}
+@font-face{
+  font-family: marchila;
+  src: url(/marchila/Marchila.otf);
+}
 
 
 html {
@@ -21,7 +33,16 @@ body {
   scroll-behavior: smooth;
   font-family: "vilane", sans-serif;
 }
-
+h1{
+  font-family: 'marchila' !important;
+  color: #ffa500;
+}
+a{
+  font-family: 'aurallia';
+}
+li{
+  font-family: 'careto';
+}
 .header{
   position: fixed;
   z-index: 999;
@@ -126,6 +147,7 @@ body {
   justify-content: space-around;
 }
 .div-div h1{
+  color: #ffa500;
   font-weight: lighter;
 }
 .div-div ul{
@@ -136,7 +158,7 @@ body {
 }
 .div-div ul li::before{
   color: orange;
-  content: "✨";
+  content: "🔸";
   padding-right: 10px;
 }
 .middlediv{
@@ -220,6 +242,7 @@ body {
     font-size: 15px;
   }
   .div-div h1{
+    
     font-size: 25px;
   }
   .middlediv h1{

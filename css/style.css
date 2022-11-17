@@ -6,23 +6,18 @@
   License: Released for free under the Creative Commons Attribution 3.0 license (myotlifestyle.com/license)
  */
  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter:wght@200&display=swap');
-@font-face {
-  font-family: 'sinami';
-  src: url(/sinami/Sinami\ demo.ttf);
-  font-family: 'vilane';
-  font-family: 'icomoon';
-  font-family: 'marchila';
-  font-family: 'numberlin';
-  src: url(/numberlin_ordinary/Numberlin.ttf);
+
+@font-face{
+  font-family: careto;
+  src: url(/creato_display/CreatoDisplay-Regular.otf);
+}
+@font-face{
+  font-family: aurallia;
+  src: url(/aurallia/Aurallia.ttf);
+}
+@font-face{
+  font-family: marchila;
   src: url(/marchila/Marchila.otf);
-  src: url(/fonts/numberlin_ordinary/Numberlin.ttf);
-  src: url(/fonts/marchila/Marchila.otf);
-  src: url("/Vilane-Font/Vilane\ Bold.ttf");
-  src: url("/Vilane-Font/Vilane\ Medium.ttf");
-  src: url("../fonts/icomoon/icomoon.eot?1z9v6x");
-  src: url("../fonts/icomoon/icomoon.eot?1z9v6x#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?1z9v6x") format("truetype"), url("../fonts/icomoon/icomoon.woff?1z9v6x") format("woff"), url("../fonts/icomoon/icomoon.svg?1z9v6x#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
 }
 
 html {
@@ -35,21 +30,19 @@ body {
   line-height: 24px;
   background: #ffffff;
   scroll-behavior: smooth;
-  font-family: 'vilane', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #000000;
+  font-family: 'aurallia';
   line-height: 1.5;
 }
 
 h1 {
-  font-family: 'sinami', cursive !important;
   font-size: 46px;
 }
 
 h2 {
-  font-family: 'sinami', cursive !important;
   font-size: 36px;
 }
 
@@ -68,7 +61,9 @@ h5, h6 {
 p, ul, ol {
   margin-bottom: 30px;
 }
-
+p{
+  font-family: 'careto';
+}
 a {
   -webkit-transition: .3s all;
   transition: .3s all;
@@ -88,11 +83,9 @@ a:hover, a:focus, a:active {
   line-height: 64px;
   color: white;
 }
-.cursive-font{
-  text-transform: initial !important;
-  font-family: 'sinami', cursive !important;
+.about-h{
+  font-family: 'careto';
 }
-
 @media screen and (max-width: 768px) {
   .hero-text-heading, .otl-hero h1 {
     font-size: 40px;
@@ -354,7 +347,7 @@ a:hover, a:focus, a:active {
 }
 
 .otl-navbar .navbar-nav > li > a {
-  font-family: "vilane", sans-serif;
+  font-family: 'careto';
   color: white;
   font-size: 15px;
   position: relative;
@@ -1125,6 +1118,7 @@ section[data-section="menu"] {
 
 .otl-cell .text p:last-child {
   margin-bottom: 0;
+  font-family: 'careto';
 }
 
 .otl-cell .text p.price {
@@ -1913,7 +1907,7 @@ section[data-section="menu"] {
 }
 
 .otl-heading .primary-heading {
-  font-family: "vilane", sans-serif;
+  font-family: 'marchila';
   color: orange;
   margin: 0;
   padding: 0;
@@ -1927,7 +1921,7 @@ section[data-section="menu"] {
 }
 
 .otl-heading .secondary-heading {
-  font-family: "vilane",sans-serif;
+  font-family: 'aurallia';
   text-transform: uppercase;
   color: #ffffff;
   margin: 0;
@@ -1938,6 +1932,10 @@ section[data-section="menu"] {
   top: -15px;
   font-weight: 700;
   line-height: 40px;
+}
+
+.primary-heading{
+  font-family: 'marchila';
 }
 
 @media screen and (max-width: 768px) {
@@ -1984,8 +1982,9 @@ section[data-section="menu"] {
 }
 
 .flexslider .otl-slider-text .sub-heading {
+  font-family: 'careto';
   font-size: 20px;
-  margin-top: -20px;
+  margin-top: -10px;
   color: rgba(255, 255, 255, 0.7);
 }
 @media screen and (max-width: 480px){
@@ -2454,6 +2453,7 @@ section[data-section="menu"] {
   text-rendering: optimizeLegibility;
 }
 .text-title {
+  font-family: 'aurallia';
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 20px;
@@ -2472,6 +2472,7 @@ section[data-section="menu"] {
 }
 
 .truncate {
+  font-family: 'careto';
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
@@ -2651,7 +2652,7 @@ section[data-section="menu"] {
 }
 
 .snip1543 h3 {
-  font-family: 'Teko', sans-serif;
+  font-family: 'marchila';
   font-size: 36px;
   font-weight: 700;
   line-height: 1em;
@@ -2659,6 +2660,7 @@ section[data-section="menu"] {
 }
 
 .snip1543 p {
+  font-family: 'careto';
   font-size: 0.9em;
 }
 
